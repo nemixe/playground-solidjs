@@ -5,7 +5,7 @@
   "description": "",
   "scripts": {
     "start": "vite",
-    "predeploy": "pnpm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
