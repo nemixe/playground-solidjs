@@ -1,5 +1,5 @@
 import { render } from "solid-js/web";
-import 'virtual:windi.css';
+import "virtual:windi.css";
 
 import App from "./App";
 
