@@ -29,6 +29,7 @@
   "dependencies": {
     "babel-preset-solid": "^1.1.1",
     "solid-element": "^1.1.1",
-    "solid-js": "^1.0.7"
+    "solid-js": "^1.0.7",
+    "vite-tsconfig-paths": "^3.3.13"
   }
 }

@@ -4,7 +4,7 @@ import VStack from "components/VStack";
 
 const App: Component = () => {
   return (
-    <div>
+    <Box>
       <Box bg="white" h="screen" display="flex">
         <Box container="~" m="x-auto" display="flex" flex="col">
           <VStack flex="grow">
@@ -16,7 +16,7 @@ const App: Component = () => {
             </Box>
           </VStack>
           <Box text="center gray-400" font="light" p="y-2">
-            Let's Boxe into the very bottom.
+            Let's dive into the very bottom.
           </Box>
         </Box>
       </Box>
@@ -30,7 +30,7 @@ const App: Component = () => {
           The page end here, but the journey still far from an end.
         </Box>
       </Box>
-    </div>
+    </Box>
   );
 };
 
