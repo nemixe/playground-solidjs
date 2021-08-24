@@ -2,6 +2,11 @@
 
 `solid + windicss + typescript`
 
+## Roadmap
+
+- [ ] add solid router
+- [ ] add support server side rendering
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.js.org/) via `pnpm up -Lri`.
