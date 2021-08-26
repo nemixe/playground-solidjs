@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "vite",
+    "start": "node server",
     "deploy": "gh-pages -d dist",
-    "dev": "vite",
+    "dev": "node server",
     "build": "vite build --base=/playground-solidjs/",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "build:server": "vite build --outDir dist/server --ssr server.js"
   },
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@solid/eslint-config-base": "^0.2.2",
@@ -28,6 +30,9 @@
   },
   "dependencies": {
     "babel-preset-solid": "^1.1.1",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "solid-element": "^1.1.1",
     "solid-js": "^1.0.7",
     "vite-tsconfig-paths": "^3.3.13"

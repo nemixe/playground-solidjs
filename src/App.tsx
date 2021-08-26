@@ -1,8 +1,11 @@
 import type { Component } from "solid-js";
-import Box from "components/Box";
-import VStack from "components/VStack";
 
-const App: Component = () => {
+import Box from "components/Box";
+import { RouteHOC } from "router";
+import VStack from "components/VStack";
+import "virtual:windi.css";
+
+const App: Component<any> = RouteHOC(() => {
   return (
     <Box>
       <Box bg="white" h="screen" display="flex">
@@ -32,6 +35,6 @@ const App: Component = () => {
       </Box>
     </Box>
   );
-};
+});
 
 export default App;
