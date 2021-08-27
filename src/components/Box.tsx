@@ -1,7 +1,9 @@
 import type { Component, JSX } from "solid-js";
 import { AttributifyAttributes } from "windicss/types/jsx";
 
-interface Props extends AttributifyAttributes {
+interface Props
+  extends AttributifyAttributes,
+    JSX.HTMLAttributes<HTMLDivElement> {
   class?: string;
 }
 
